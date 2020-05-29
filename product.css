@@ -1,0 +1,33 @@
+header .pro{
+    background: transparent;
+}
+
+.product img{
+    width: 200px;
+    border-radius: 3px;
+}
+.product h3{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Milkshake;
+
+}
+.product{
+    text-align: center;
+}
+div .card{
+    border-radius: 4px;
+    padding: 22px;
+    margin: 5px 34px;
+    width: 221px;
+    height: 270px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    float: left;
+}
+
+#textdpro{
+    font-weight: bold;
+}

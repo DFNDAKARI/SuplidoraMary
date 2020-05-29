@@ -1,0 +1,387 @@
+body {
+	background:#5e2129;
+	font-family:Simplicity;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {text-decoration:none; color:#fff;}
+/*a:hover {text-decoration:underline;}*/
+#wrapp {
+	width:999px;
+	margin:auto;
+	clear:both;
+}
+
+#wrap {
+	width:1000px;
+	margin:auto;
+	clear:both;
+}
+/*------------logo-----------------*/
+
+
+header img:hover{
+    filter: opacity(0.8);
+}
+
+/*--- HEADER ---*/
+header {
+	width:100%;
+	height: 110px;
+	float:left;
+    background: #ffffff;
+}
+
+#subheader {
+	width:960px;
+	margin:auto;
+}
+
+#logotipo {
+	float:left;
+	width:254px;
+    padding:0px 0px 0px 150px;
+    animation: 1s entradalogo 1 ;
+}
+
+#logotipo a {
+	font-family:Milkshake;
+	font-size:50px;
+    color:#000;
+}
+
+#logotipo a:hover {text-decoration:none;}
+
+/*Menu*/
+header #subheader nav {
+	float:left;
+	width:750px;
+	padding: 24px 0px;
+    text-align:right;
+	right: 20px;
+}
+
+header #subheader nav ul li {
+	display:inline;
+	font-family:Milkshake;
+}
+
+header #subheader nav ul li a {
+	color:#5e2129;
+	font-size:20px;
+	padding:10px;
+		border-radius:2px;
+		-moz-border-radius:2px;
+		-webkit-border-radius:2px;
+}
+
+header #subheader nav ul li a:hover {
+	color:#fff;
+	background: #5e2129;
+	text-decoration:none;
+}
+
+/*** Bienvenidos ***/
+.Product img{
+    width: 200px;
+    border-radius: 3px;
+}
+.Product h3{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Milkshake;
+}
+.Product{
+    text-align: center;
+}
+div .cardd{
+		border-radius: 4px;
+		padding: 22px;
+		margin: 5px 20px;
+		width: 235px;
+		height: 440px;
+		/* background: #fff; */
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		text-align: center;
+		float: left;
+	
+}
+
+#bienvenidos{
+	    width: 960px;
+	height: 490px;
+	float: left;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+
+}
+#bienvenidos article h5 {
+	font-size: 23px;
+	margin: 20px 0px 0px 0px;
+}
+
+#bienvenidos article h2 {
+    font-family: Milkshake;
+	padding: 42px 0px 0px 0px;
+	color: #5e2129;
+}
+
+#bienvenidos article h2 .h2hh{
+    font-family: Milkshake;
+	padding: 7px 0px 0px 0px;
+	color: #5e2129;
+}
+
+#bienvenidos article >ul li{
+	padding: 4px 0px 4px 0px;
+}
+
+
+#bienvenidos article h2.h22 {
+    font-family: Milkshake;
+    padding: 35px 0px 25px 0px;
+}
+
+#bienvenidos article ul li{
+    list-style: none;
+}
+
+/*--------------Bienvenidoos--------------------*/
+
+#bienvenidoos{
+width: 1000px;
+height: 255px;
+float: left;
+padding: 20px;
+background: #fff;
+border-radius: 5px;
+box-sizing: border-box;
+
+}
+#bienvenidoos article h5 {
+font-size: 23px;
+margin: 20px 0px 0px 0px;
+}
+
+#bienvenidoos article h2 {
+font-family: Milkshake;
+font-size: 30px;
+padding: 20px 0px 0px 20px;
+color: #5e2129;
+margin: 0px;
+}
+
+#bienvenidoos article >ul li{
+padding: 4px 0px 4px 0px;
+}
+
+#bienvenidoos article ul li{
+list-style: none;
+}
+
+ /*--------------contactanos--------------------*/
+ .col-md{
+    width: 1000px;
+    height: 410px;
+    background: #ffffff;
+    border-radius: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.col-md h5{
+font-family: Milkshake;
+text-align: center;
+font-size: 35px;
+color: #5e2129;
+margin: 20px 0px 65px 0px;
+}
+.col-md ul{
+    list-style: none;
+    display: flex;
+	justify-content: center;
+    margin-top: -65px;
+    margin-left: 50px;
+    padding: 0px;
+
+}
+
+.col-md a{
+    color: #5e2129;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #fff;
+    font-family: Milkshake;
+    font-size: 20px;
+    margin: 20px 35px 10px 35px;
+    border-radius: 5px;
+    border: 1px solid #5e2129;    
+}
+
+.col-md a:hover{
+    color: #fff;
+	background: #5e2129;
+	cursor: pointer;
+}
+
+.img2{
+    border-radius: 5px;
+}
+
+.form{
+	width: 508px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	font-family: Simplicity;
+}
+
+.form :placeholder-shown{
+	font-family: Simplicity;
+	font-size: 20px;
+    border: 1px solid #5e2129;
+}
+
+input{
+	width: 517px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: Milkshake;
+	border-radius: 2px;
+}
+
+#boton{
+    border: 1px solid #5e2129;
+	background: transparent;
+	color: #5e2129;
+	padding: 7px;
+
+}
+
+#boton:hover{
+	background: #5e2129;
+	color: #fff;
+	border: 1px #5e2129;
+	cursor: pointer;
+}
+textarea{
+	min-height: 100px;
+	max-height: 120px;
+	max-width: 511px;
+	min-width: 511px;
+	font-family: Simplicity;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+
+/*--------------botones de la lista de tienda---------------------*/
+div .tienda {
+		margin: -23px;
+		padding: 0px;
+	}
+
+.tienda{
+    background: transparent;
+    border-radius: 5px;
+    padding: 20px;
+}
+.tienda{
+font-family: Milkshake;
+text-align: center;
+font-size: 28px;
+color: #5e2129;
+}
+.tienda ul{
+    list-style: none;
+    display: flex;
+	justify-content: center;
+	margin: 40px 0px 0px -40px;
+}
+
+.tienda a{
+    color: #5e2129;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: #fff;
+    font-family: Milkshake;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #5e2129;    
+}
+
+.tienda a:hover{
+    color: #fff;
+    background: #5e2129;
+}
+
+/*---footer---*/
+
+footer >p{
+	color: #000;
+	font-family: Milkshake;
+	text-align: center;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #000000;
+
+}
+
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; margin: 0px 0px 20px 0px; float:left; }
+.social_footer_ul li a { color:#CCC; border:0px solid #CCC; padding:8px;border-radius:50%; }
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+#social-fb:hover {
+	color: #3b5998;
+}
+#social-tw:hover {
+	color: #00acee;
+}
+
+#social-yt:hover {
+	color: #c4302b;
+}
+
+#social-ig:hover {
+	background-image: linear-gradient( #FFDC80,#FCAF45,#F77737,#F56040,#FD1D1D,#E1306C,#C13584,#833AB4,#5851DB,#405DE6);
+	border-radius: 5px;
+	height: 16px;
+}
+#social-in:hover {
+	color: #3f729b;
+}
+/*----------------------------servicios---------------------------------*/
+
+.img2{
+	border-radius: 5px;
+}
+
+section div .display-5{
+	font-family: Milkshake;
+}
+
+@media (max-width: 511px){
+	form{
+		width: 100%;
+	}
+}
+
+    /*-----------------------------------*/
+
+    @keyframes entradalogo{
+        0%{
+            transform: translateY(-200px);
+        }
+    }
