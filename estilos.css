@@ -230,7 +230,7 @@ margin: 20px 0px 65px 0px;
 .img2{
     border-radius: 5px;
 }
-
+/*--------------textarea------------------
 .form{
 	width: 508px;
 	margin: auto;
@@ -277,6 +277,78 @@ textarea{
 	font-family: Simplicity;
 	font-size: 20px;
 	border-radius: 3px;
+}
+*/
+
+.form-group {
+    width: 37.25%;
+    position: absolute;
+    top: 153%;
+    left: 50.74%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group input{
+	display: block;
+	width: 100%;
+	height: 2em;
+	color: #000;
+	border: none;
+	border: 2px solid #5e2129;
+	background-color: transparent;
+	padding: 10px;
+	font-size: 1.3em;
+	font-family: Simplicity;
+}
+
+.form-group label{
+	position: absolute;
+	top: -1.7em;
+	left: 0;
+	opacity: 1;
+	transition: all 0.3s;
+	font-family: Milkshake;
+	font-size: 2em;
+	color: #5e2129;
+}
+
+.form-group input:placeholder-shown + label{
+	top: 12px;
+	left: 12px;
+	opacity: 0;
+}
+/*----------------------------------*/
+.form{
+
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	font-family: Simplicity;
+}
+  #boton{
+   width: 525px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+   font-size: 20px;
+   font-family: Milkshake;
+   border-radius: 2px;
+   margin: 11.5% 0% 0% 24.9%;
+}
+
+#boton{
+    border: 1px solid #5e2129;
+	background: transparent;
+	color: #5e2129;
+	padding: 7px;
+
+}
+
+#boton:hover{
+	background: #5e2129;
+	color: #fff;
+	border: 1px #5e2129;
+	cursor: pointer;
 }
 
 
